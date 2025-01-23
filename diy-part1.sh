@@ -20,3 +20,4 @@ echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.defau
 
 # git clone https://github.com/sbwml/luci-app-alist package/alist
 git clone https://github.com/rufengsuixing/luci-app-onliner package/onliner
+src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages.git
