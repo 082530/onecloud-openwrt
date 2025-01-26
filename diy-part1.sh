@@ -13,11 +13,22 @@
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
+
+
+
+
+#rm -rf feeds/luci/applications/luci-app-mosdns
+
+
+
+
 # Add a feed source
 # echo "src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git;main" >> "feeds.conf.default"
-echo "src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages.git" >> "feeds.conf.default"
-echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-
-# git clone https://github.com/sbwml/luci-app-alist package/alist
+#echo "src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages.git" >> "feeds.conf.default"
+#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >> feeds.conf.default
+echo 'src-git small https://github.com/kenzok8/small' >> feeds.conf.default
 git clone https://github.com/rufengsuixing/luci-app-onliner package/onliner
+git clone https://github.com/lisaac/luci-app-diskman.git package/diskman#rm
+git clone https://github.com/lisaac/luci-app-diskman.git package/diskman
 
