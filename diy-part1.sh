@@ -30,5 +30,8 @@ echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >> feeds.conf.d
 echo 'src-git small https://github.com/kenzok8/small' >> feeds.conf.default
 git clone https://github.com/rufengsuixing/luci-app-onliner package/onliner
 git clone https://github.com/lisaac/luci-app-diskman.git package/diskman#rm
-git clone https://github.com/lisaac/luci-app-diskman.git package/diskman
+git clone https://github.com/sirpdboy/luci-app-eqosplus.git package/eqosplus
+git clone https://github.com/simplebean/luci-app-frpc.git package/frpc
+git clone https://github.com/blueberry-pie-11/openwrt-natmap.git package/frpc
+git clone https://github.com/QC3284/luci-app-ramfree.git package/ramfree
 
