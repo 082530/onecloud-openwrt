@@ -24,14 +24,9 @@
 
 # Add a feed source
 # echo "src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git;main" >> "feeds.conf.default"
-#echo "src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages.git" >> "feeds.conf.default"
+echo "src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages.git" >> "feeds.conf.default"
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+sed -i 's|src-git luci https://github.com/coolsnowwolf/luci.git;openwrt-23.05|src-git luci https://github.com/082530/my.git|' feeds.conf.default
+echo 'src-git kenzok8 https://github.com/kenzok8/small' >> feeds.conf.default
 echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >> feeds.conf.default
-echo 'src-git small https://github.com/kenzok8/small' >> feeds.conf.default
-git clone https://github.com/rufengsuixing/luci-app-onliner package/onliner
-git clone https://github.com/lisaac/luci-app-diskman.git package/diskman#rm
-git clone https://github.com/sirpdboy/luci-app-eqosplus.git package/eqosplus
-git clone https://github.com/simplebean/luci-app-frpc.git package/frpc
-git clone https://github.com/blueberry-pie-11/openwrt-natmap.git package/frpc
-git clone https://github.com/QC3284/luci-app-ramfree.git package/ramfree
 
