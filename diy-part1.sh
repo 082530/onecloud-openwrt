@@ -27,13 +27,13 @@
 
 
 
-#echo "src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages.git" >> "feeds.conf.default"
-#echo 'src-git kenzok8 https://github.com/kenzok8/small' >> feeds.conf.default
-#echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >> feeds.conf.default
-{
-  echo "src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages.git";
-  echo "src-git kenzok8 https://github.com/kenzok8/small";
-  echo "src-git kenzo https://github.com/kenzok8/openwrt-packages";
-  cat feeds.conf.default;
-} > feeds.conf.default.tmp && mv feeds.conf.default.tmp feeds.conf.default
+echo "src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages.git" >> "feeds.conf.default"
+echo 'src-git kenzok8 https://github.com/kenzok8/small' >> feeds.conf.default
+echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >> feeds.conf.default
+#{
+#  echo "src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages.git";
+#  echo "src-git kenzok8 https://github.com/kenzok8/small";
+#  echo "src-git kenzo https://github.com/kenzok8/openwrt-packages";
+#  cat feeds.conf.default;
+#} > feeds.conf.default.tmp && mv feeds.conf.default.tmp feeds.conf.default
 
