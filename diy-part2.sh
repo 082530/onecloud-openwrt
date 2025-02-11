@@ -21,3 +21,8 @@ sed -i 's/OpenWrt/OneCloud/g' package/base-files/files/bin/config_generate
 
 # 替换终端为bash
 sed -i 's/\/bin\/ash/\/bin\/bash/' package/base-files/files/etc/passwd
+
+rm -rf feeds/luci/applications/luci-app-passwall
+rm -rf feeds/luci/applications/luci-app-passwall2
+./scripts/feeds update -a
+./scripts/feeds install -a
