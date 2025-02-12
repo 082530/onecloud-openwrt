@@ -27,8 +27,9 @@ rm -rf feeds/luci/applications/luci-app-passwall2
 rm -rf feeds/luci/applications/luci-app-alist
 rm -rf feeds/luci/applications/alist
 rm -rf feeds/luci/applications/luci-app-diskman
+rm -rf feeds/kwrt/luci-app-diskman
 rm -rf feeds/luci/applications/luci-app-dockerman
-rm -rf feeds/luci/applications/luci-app-filetransfer
+#rm -rf feeds/luci/applications/luci-app-filetransfer
 rm -rf feeds/luci/applications/luci-app-samba4
 rm -rf feeds/luci/applications/luci-app-rclone
 rm -rf feeds/luci/applications/luci-app-turboacc
