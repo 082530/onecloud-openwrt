@@ -34,6 +34,6 @@ rm -rf feeds/luci/applications/luci-app-samba4
 rm -rf feeds/luci/applications/luci-app-rclone
 rm -rf feeds/luci/applications/luci-app-turboacc
 rm -rf feeds/luci/applications/luci-app-vlmcsd
-get clone https://github.com/sirpdboy/luci-app-eqosplus.git feeds/luci/applications/
+git clone https://github.com/sirpdboy/luci-app-eqosplus.git feeds/luci/applications/luci-app-eqosplus
 ./scripts/feeds update -a
 ./scripts/feeds install -a
