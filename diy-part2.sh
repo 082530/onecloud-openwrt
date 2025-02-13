@@ -44,6 +44,7 @@ rm -rf feeds/luci/applications/luci-app-samba4
 rm -rf feeds/luci/applications/luci-app-rclone
 rm -rf feeds/NueXini_Packages/luci-app-rclone
 rm -rf feeds/luci/applications/luci-app-turboacc
+rm -rf feeds/NueXini_Packages/luci-app-istoreenhance
 rm -rf feeds/NueXini_Packages/luci-app-xunlei
 rm -rf feeds/luci/applications/luci-app-vlmcsd
 git clone https://github.com/sirpdboy/luci-app-eqosplus.git feeds/luci/applications/luci-app-eqosplus
