@@ -49,7 +49,7 @@ rm -rf feeds/NueXini_Packages/luci-app-xunlei
 rm -rf feeds/luci/applications/luci-app-vlmcsd
 git clone https://github.com/sirpdboy/luci-app-eqosplus.git feeds/luci/applications/luci-app-eqosplus
 git clone https://github.com/kiddin9/kwrt-packages
-cd kwrt-packages && mv luci-app-chinadns-ng luci-app-cpu-perf luci-app-dockerman luci-app-natmapt luci-app-natter2 luci-app-onliner luci-app-rtbwmon luci-app-frpc luci-app-istoredup luci-app-istoreenhance luci-app-istorego luci-app-istorepanel luci-app-rclone luci-app-samba4 luci-app-turboacc luci-app-wolplus luci-app-xunlei ../feeds/NueXini_Packages/
+cd kwrt-packages && mv luci-app-chinadns-ng luci-app-cpu-perf vmease openwrt-natmapt natter2 autoshare-samba luci-app-dockerman luci-app-natmapt luci-app-natter2 luci-app-onliner luci-app-rtbwmon luci-app-frpc luci-app-istoredup luci-app-istoreenhance luci-app-istorego luci-app-istorepanel luci-app-rclone luci-app-samba4 luci-app-turboacc luci-app-wolplus luci-app-xunlei ../feeds/NueXini_Packages/
 cd ../ && rm -rf kwrt-packages
 #git_sparse_clone main https://github.com/kiddin9/kwrt-packages luci-app-chinadns-ng
 #git_sparse_clone main https://github.com/kiddin9/kwrt-packages luci-app-cpu-perf
