@@ -69,4 +69,4 @@ cd ../ && rm -rf kwrt-packages
 #git_sparse_clone main https://github.com/kiddin9/kwrt-packages luci-app-wolplus
 #git_sparse_clone main https://github.com/kiddin9/kwrt-packages luci-app-xunlei
 ./scripts/feeds update -a
-./scripts/feeds install -a
+./scripts/feeds install -a -f
