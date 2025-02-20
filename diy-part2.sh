@@ -40,6 +40,11 @@ rm -rf feeds/luci/applications/luci-app-vlmcsd
 git clone https://github.com/sirpdboy/luci-app-eqosplus.git feeds/luci/applications/luci-app-eqosplus
 git clone https://github.com/kiddin9/kwrt-packages
 
+
+#====================
+############################git clone https://github.com/jerrykuku/luci-theme-argon.git feeds/luci/applications/luci-app-eqosplus
+#========================
+
 # 移动需要的包到正确位置
 cd kwrt-packages && mv luci-app-chinadns-ng luci-app-cpu-perf vmease openwrt-natmapt natter2 autoshare-samba luci-app-dockerman luci-app-natmapt luci-app-natter2 luci-app-onliner luci-app-rtbwmon luci-app-frpc luci-app-istoredup luci-app-istoreenhance luci-app-istorego luci-app-istorepanel luci-app-rclone luci-app-samba4 luci-app-turboacc luci-app-wolplus luci-app-xunlei ../feeds/luci/applications/
 cd ../ && rm -rf kwrt-packages
